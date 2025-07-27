@@ -1,9 +1,9 @@
 export default function Intro() {
     return (
         <div>
-            <div className="w-[75%] mx-50 rounded">
+            <div className="w-[75%] mx-52 rounded">
 
-                <div className='w-[75%]'>🤭</div>
+                <div className='w-[75%] text-3xl'>🤭</div>
 
                 <div className='w-[75%]' style={{ color: '#BABABA' }}>
                     Hola, I'm{' '}
@@ -16,7 +16,7 @@ export default function Intro() {
                     <span style={{ color: 'white', fontWeight: '500' }}>Computer Science</span>{' '}
                     undergrad, a Web Developer @ VIT Chennai,
                     <div className="w-[100%]">
-                        a Project Lead @ Longhorn Developers, and building{' '}
+                        and building{' '}
                         <span style={{ color: 'white', fontWeight: '500' }}>mymentalhealth.com</span>{' '}
                         all on my own.
                     </div>
@@ -35,7 +35,7 @@ export default function Intro() {
 
 
             <hr
-                className="border-t mx-auto w-[71%] flex justify-center mb-7"
+                className="border-t mx-auto w-[71%] my-5 flex justify-center mt-2"
                 style={{ color: '#684574' }}
             />
         </div>

@@ -1,7 +1,7 @@
 export default function Intro() {
     return (
         <div>
-            <div className="w-[75%] mx-52 rounded">
+            <div className="w-[75%] mx-53 rounded">
 
                 <div className='w-[75%] text-3xl'>🤭</div>
 
@@ -14,7 +14,7 @@ export default function Intro() {
                 <div className='w-[100%]' style={{ color: '#BABABA' }}>
                     I'm currently a{' '}
                     <span style={{ color: 'white', fontWeight: '500' }}>Computer Science</span>{' '}
-                    undergrad, a Web Developer @ VIT Chennai,
+                    undergrad, a Web Developer @ VIT Chennai
                     <div className="w-[100%]">
                         and building{' '}
                         <span style={{ color: 'white', fontWeight: '500' }}>mymentalhealth.com</span>{' '}

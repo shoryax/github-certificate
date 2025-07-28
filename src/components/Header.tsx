@@ -13,7 +13,7 @@ export default function Header() {
 
         {/* Clickable "Shorya" text */}
         <div
-          className="text-xl font-semibold cursor-pointer hover:underline"
+          className="text-xl font-semibold cursor-pointer"
           onClick={() => setShowModel(true)}
         >
           Shorya
@@ -21,9 +21,9 @@ export default function Header() {
 
         <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex">
           <nav className="flex space-x-10">
-            <p className="cursor-pointer hover:underline">About</p>
-            <p className="cursor-pointer hover:underline">Home</p>
-            <p className="cursor-pointer hover:underline">Contact</p>
+            <p className="cursor-pointer ">About</p>
+            <p className="cursor-pointer ">Home</p>
+            <p className="cursor-pointer ">Contact</p>
           </nav>
         </div>
 

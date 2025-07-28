@@ -23,7 +23,23 @@ export default function Intro() {
                 </div>
             </div>
 
-            <div className="flex space-x-10 my-20 mx-54 mb-2" style={{ color: '#BABABA' }}>
+
+            <div className="flex mx-53 mt-10">
+                {/* Contact Button */}
+                <div className="flex items-center cursor-pointer text-[#5AAAFF] hover:text-[#4794e0] transition-colors duration-200">
+                    Contact
+                    <img src="/arr.svg" alt="arrow" className="ml-2" />
+                </div>
+
+                {/* View Resume Button */}
+                <div className="flex items-center mx-10 cursor-pointer text-[#BABABA] hover:text-[#9f9f9f] transition-colors duration-200">
+                    View Resume
+                    <img src="/arrow-up-right.svg" alt="arrow" className="ml-2" />
+                </div>
+            </div>
+
+
+            <div className="flex space-x-10 my-10 mx-53 mb-2" style={{ color: '#BABABA' }}>
                 <div>Projects</div>
 
                 <div className="flex items-center space-x-2">

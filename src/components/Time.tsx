@@ -34,7 +34,7 @@ const Time: React.FC = () => {
             <div className="w-[75%] h-[85%] mx-auto mt-4 mb-10 rounded-2xl transition-colors px-3 flex items-center justify-center">
                 <div className="relative w-full flex items-center justify-between py-4">
                     <div className="text" style={{ color: "gray" }}>
-                        Shorya Vardhan © 2025
+                        Shorya Vardhan © {new Date().getFullYear()}
                     </div>
 
                     <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex">
@@ -44,7 +44,7 @@ const Time: React.FC = () => {
                     </div>
 
                     <div className="text-center font-normal text-base text-[gray] font-[Satoshi] flex items-center gap-2">
-                        <img className="w-[12%] h-[12%]" src="/loc.svg" alt="Location Icon" loading="lazy" />
+                        <img className="w-[11%] h-[11%]" src="/locat.svg" alt="Location Icon" loading="lazy" />
                         Patna, India {timeIST}
                     </div>
                 </div>

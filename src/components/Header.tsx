@@ -21,11 +21,12 @@ export default function Header() {
 
         <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex">
           <nav className="flex space-x-10">
-            <p className="cursor-pointer ">About</p>
-            <p className="cursor-pointer ">Home</p>
-            <p className="cursor-pointer ">Contact</p>
+            <a href="#home" className="cursor-pointer">About</a>
+            <a href="#home" className="cursor-pointer">Home</a>
+            <a href="#contact" className="cursor-pointer">Contact</a>
           </nav>
         </div>
+
 
         {/* Right side: Icons or Menu */}
         <div className="flex items-center space-x-4">

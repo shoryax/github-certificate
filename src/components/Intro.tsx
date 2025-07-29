@@ -1,59 +1,52 @@
 export default function Intro() {
     return (
-        <div>
-            <div className="w-[75%] mx-53 rounded">
-
-                <div className='w-[75%] text-3xl'>🤭</div>
-
-                <div className='w-[75%]' style={{ color: '#BABABA' }}>
-                    Hola, I'm{' '}
-                    <span style={{ color: 'white', fontWeight: '500' }}>Shorya</span>{' '}
-                    — developer, designer, and a lil bit of a creator.
-                </div>
-
-                <div className='w-[100%]' style={{ color: '#BABABA' }}>
-                    I'm currently a{' '}
-                    <span style={{ color: 'white', fontWeight: '500' }}>Computer Science</span>{' '}
-                    undergrad, a Web Developer @ VIT Chennai
-                    <div className="w-[100%]">
-                        and building{' '}
-                        <span style={{ color: 'white', fontWeight: '500' }}>mymentalhealth.com</span>{' '}
-                        all on my own.
-                    </div>
-                </div>
+      <div id="home" className="px-4 sm:px-8 lg:px-20 py-8 mx-auto">
+        <div className="= sm:max-w-3xl rounded px-32">
+          <div className="text-5xl sm:text-6xl mb-4">🤭</div>
+  
+          <div className="text-gray-400 text-base sm:text-lg mb-3">
+            Hola, I'm{' '}
+            <span className="text-white font-medium">Shorya</span> — developer, designer, and a lil bit of a creator.
+          </div>
+  
+          <div className="text-gray-400 text-base sm:text-lg">
+            I'm currently a{' '}
+            <span className="text-white font-medium">Computer Science</span> undergrad, a Web Developer @ VIT Chennai
+            <div>
+              and building{' '}
+              <span className="text-white font-medium">mymentalhealth.com</span> all on my own.
             </div>
-
-
-            <div className="flex mx-53 mt-10">
-                {/* Contact Button */}
-                <div className="flex items-center cursor-pointer text-[#5AAAFF] hover:text-[#4794e0] transition-colors duration-200">
-                    Contact
-                    <img src="/arr.svg" alt="arrow" className="ml-2" />
-                </div>
-
-                {/* View Resume Button */}
-                <div className="flex items-center mx-10 cursor-pointer text-[#BABABA] hover:text-[#9f9f9f] transition-colors duration-200">
-                    View Resume
-                    <img src="/arrow-up-right.svg" alt="arrow" className="ml-2" />
-                </div>
-            </div>
-
-
-            <div className="flex space-x-10 my-10 mx-53 mb-2" style={{ color: '#BABABA' }}>
-                <div>Projects</div>
-
-                <div className="flex items-center space-x-2">
-                    <span>Tech Stack</span>
-                    <span className="w-1 h-1 rounded-full bg-blue-300 animate-ping"></span>
-                </div>
-            </div>
-
-
-
-            <hr
-                className="border-t mx-auto w-[71%] my-5 flex justify-center mt-2"
-                style={{ color: '#684574' }}
-            />
+          </div>
         </div>
+  
+        <div className="flex flex-col sm:flex-row items-start sm:items-center mt-10 space-y-4 sm:space-y-0 px-32 sm:space-x-10">
+          {/* Contact Button */}
+          <div className="flex items-center cursor-pointer text-[#5AAAFF] hover:text-[#4794e0] transition-colors duration-200">
+            Contact
+            <img src="/arr.svg" alt="arrow" className="ml-2" />
+          </div>
+  
+          {/* View Resume Button */}
+          <div className="flex items-center cursor-pointer text-[#BABABA] hover:text-[#9f9f9f] transition-colors duration-200">
+            View Resume
+            <img src="/arrow-up-right.svg" alt="arrow" className="ml-2" />
+          </div>
+        </div>
+  
+        <div className="flex flex-col sm:flex-row sm:space-x-10 my-10 mb-2 px-32 text-gray-400 text-base sm:text-lg">
+          <div>Projects</div>
+  
+          <div className="flex items-center space-x-2 mt-2 sm:mt-0">
+            <span>Tech Stack</span>
+            <span className="w-1 h-1 rounded-full bg-blue-300 animate-ping"></span>
+          </div>
+        </div>
+  
+        <hr
+          className="mx-auto w-[81%] my-5"
+          style={{ color: '#684574' }}
+        />
+      </div>
     );
-}
+  }
+  

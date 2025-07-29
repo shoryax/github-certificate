@@ -1,6 +1,6 @@
 const Footer: React.FC = () => {
   return (
-    <div>
+    <div id="contact">
       <footer className="text-white py-16 relative" style={{ overflow: "hidden" }}>
         <hr className="border-t mx-auto w-[70%] mb-7" style={{ color: "#684574" }} />
 
@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
             <textarea
               name="message"
               className="w-full bg-[#111015] text-white text-sm px-3 py-2 rounded-md border border-[#1C1C1C]"
-            ></textarea>
+            />
           </div>
 
           <div className="flex justify-end">

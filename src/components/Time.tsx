@@ -28,7 +28,7 @@ const Time: React.FC = () => {
     return (
         <div className="">
             <hr
-                className="mx-auto my-4 w-[75%] flex justify-center"
+                className="mx-auto my-4 w-[71%] flex justify-center"
                 style={{ color: "#684574" }}
             />
             <div className="w-[75%] h-[85%] mx-auto mt-4 mb-10 rounded-2xl transition-colors px-3 flex items-center justify-center">

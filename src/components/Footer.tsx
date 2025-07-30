@@ -2,7 +2,7 @@ const Footer: React.FC = () => {
   return (
     <div id="contact">
       <footer className="text-white py-16 relative" style={{ overflow: "hidden" }}>
-        <hr className="border-t mx-auto w-[70%] mb-7" style={{ color: "#684574" }} />
+        <hr className="border-t mx-auto w-[71%] mb-7" style={{ color: "#684574" }} />
 
         <div className="text-center font-semibold text-xl mb-2">Let's get in touch</div>
 

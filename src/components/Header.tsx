@@ -13,7 +13,7 @@ export default function Header() {
 
         {/* Clickable "Shorya" text */}
         <div
-          className="text-xl font-semibold cursor-pointer"
+          className="text-xl text-white/70 font-semibold cursor-pointer"
           onClick={() => setShowModel(true)}
         >
           Shorya
@@ -21,9 +21,9 @@ export default function Header() {
 
         <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex">
           <nav className="flex space-x-10">
-            <a href="#home" className="cursor-pointer">About</a>
-            <a href="#home" className="cursor-pointer">Home</a>
-            <a href="#contact" className="cursor-pointer">Contact</a>
+            <a href="#home" className="cursor-pointer text-white/70">About</a>
+            <a href="#home" className="cursor-pointer text-white/70">Home</a>
+            <a href="#contact" className="cursor-pointer text-white/70">Contact</a>
           </nav>
         </div>
 
@@ -57,7 +57,7 @@ export default function Header() {
             <a href="https://www.github.com/shoryax/" target="_blank" rel="noopener noreferrer">
               <img src="/github.svg" alt="GitHub" className="w-8 h-8" />
             </a>
-            <a href="https://www.linkedin.com/in/shorya1/" target="_blank" rel="noopener noreferrer">
+            <a href="https://coff.ee/shoryavard0" target="_blank" rel="noopener noreferrer">
               <img src="/coffee.svg" alt="Coffee" className="w-8 h-8" />
             </a>
             <a href="https://www.linkedin.com/in/shorya1/" target="_blank" rel="noopener noreferrer">

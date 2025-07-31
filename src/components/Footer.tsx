@@ -1,10 +1,10 @@
 const Footer: React.FC = () => {
   return (
     <div id="contact">
-      <footer className="text-white py-16 relative" style={{ overflow: "hidden" }}>
-        <hr className="border-t mx-auto w-[71%] mb-7" style={{ color: "#684574" }} />
+      <footer className="text-white py-5 relative" style={{ overflow: "hidden" }}>
+        <hr className="border-t mx-auto w-[70%] mb-7" style={{ color: "#684574" }} />
 
-        <div className="text-center font-semibold text-xl mb-2">Let's get in touch</div>
+        <div className="text-center font-semibold text-xl mb-2 text-white/70">Let's get in touch</div>
 
         <div className="text-center text-sm text-[#BABABA] w-[75%] mx-auto mb-4">
           Feel free to send me a message using the form

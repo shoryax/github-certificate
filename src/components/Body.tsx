@@ -9,8 +9,8 @@ export default async function Body() {
   const proj = data.allProjects;
 
   return (
-    <div className="w-[77%] mx-auto">
-      <div className="flex gap-x-7 gap-y-1 px-6 mx-auto justify-center flex-wrap">
+    <div className="w-[75%] mx-auto">
+      <div className="flex gap-x-5 gap-y-1 px-6 mx-auto justify-center flex-wrap">
         {proj.map((project: any, id: number) => (
           <div
             key={`${project.title}-${id}`}
@@ -22,7 +22,6 @@ export default async function Body() {
               alt={project.title}
               className="w-full h-45 bg-white/10 rounded-[10px] object-cover transition-transform transition-filter duration-300 ease-in-out hover:scale-105 hover:brightness-90"
             />
-
             <div
               data-layer="UT Dining"
               className="UtDining justify-start text-zinc-100 mt-2 text-base font-bold"
@@ -58,10 +57,8 @@ export default async function Body() {
                 />
                 <span className="text-white/60 text-xs font-normal ml-9">Learn more</span>
               </a>
-
             </div>
           </div>
-
         ))}
       </div>
     </div>

@@ -40,8 +40,7 @@ export default async function Body() {
 
             <div
               data-layer="link"
-              className="w-full justify-start flex text-sm font-bold font-['Satoshi'] mt-2.5"
-              style={{ color: "#484868" }}
+              className="w-full justify-start flex text-sm font-bold font-['Satoshi'] mt-2.5 text-[#255152]"
             >
                 <span className="overflow-hidden whitespace-nowrap overflow-ellipsis block max-w-[60%]">
                   {project.link}

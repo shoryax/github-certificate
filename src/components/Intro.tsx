@@ -1,6 +1,7 @@
 export default function Intro() {
   return (
     <div id="home" className="px-3 sm:px-8 lg:px-20 mx-auto">
+      <div className="absolute top-0 left-0 w-[200px] h-[300px] pointer-events-none z-0 bg-gradient-to-br from-white-500 via-gray-400 to-transparent blur-[200px] opacity-40 rounded-full" />
       <div className="sm:max-w-3xl rounded px-32 mx-5">
         <div className="text-4xl sm:text-5xl mb-4">🤭</div>
 

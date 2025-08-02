@@ -4,6 +4,8 @@ import fs from 'fs/promises';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Header from '@/components/Header';
+import Time from '@/components/Time';
+import Link from 'next/link';
 
 interface Project {
   id: string;
@@ -41,10 +43,15 @@ export default async function ProjectPage({ params }: { params: { id: string } }
   return (
     <div>
       <Header />
+      <div className="absolute top-0 left-0 w-[200px] h-[300px] pointer-events-none z-0 bg-gradient-to-br from-white-500 via-gray-400 to-transparent blur-[200px] opacity-60 rounded-full" />
       <div className="max-w-6xl mx-auto p-6">
-        <div className='text-white/60 flex'>
-          <img src="/arrow-left.svg" className="my-1 w-4 h-4 mx-1"></img>Go back
-        </div>
+
+        <Link href="/">
+          <div className='text-white/60 flex'>
+            <img src="/arrow-left.svg" className="my-1 w-4 h-4 mx-1"></img>Go back
+          </div>
+        </Link>
+
         <div className="bg-blue/60 w-[100%] h-[10%] flex justify-end gap-5 text-sm">
           <div className='flex gap-2'>
             {project.link && (
@@ -52,15 +59,17 @@ export default async function ProjectPage({ params }: { params: { id: string } }
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-white/80"
+                className="inline-flex items-center text-white/80"
               >
                 Visit Project
+                <img src="arrow-up-right.svg" className="w-4 h-4">
+                </img>
               </a>
             )}
           </div>
 
           {/* code portion */}
-          <div className='flex gap-2'>
+          <div className="flex gap-2 text-[#255152]">
             <a
               href={project.link}
               target="_blank"
@@ -70,7 +79,10 @@ export default async function ProjectPage({ params }: { params: { id: string } }
               View Code
             </a>
           </div>
+
         </div>
+
+        <h1 className="text-3xl font-bold text-white mb-4">{project.title}</h1>
 
         {/* the small boxes */}
 
@@ -85,7 +97,7 @@ export default async function ProjectPage({ params }: { params: { id: string } }
           ))}
 
         </div>
-        <h1 className="text-3xl font-bold text-white mb-4">{project.title}</h1>
+
         {project.description && (
           <p className="text-sm text-white/60 mb-4">{project.description}</p>
         )}
@@ -98,8 +110,8 @@ export default async function ProjectPage({ params }: { params: { id: string } }
             className="rounded-lg mb-6 object-cover"
           />
         )}
-        <p className="text-lg text-zinc-300 mb-4">{project.description}</p>
       </div>
+      {/* <Time></Time> */}
     </div>
   );
 }

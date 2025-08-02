@@ -21,8 +21,8 @@ export default function Header() {
 
         <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex">
           <nav className="flex space-x-10">
-            <a href="#home" className="cursor-pointer text-white/70">About</a>
-            <a href="#home" className="cursor-pointer text-white/70">Home</a>
+            <a href="/" className="cursor-pointer text-white/70">About</a>
+            <a href="/" className="cursor-pointer text-white/70">Home</a>
             <a href="#contact" className="cursor-pointer text-white/70">Contact</a>
           </nav>
         </div>

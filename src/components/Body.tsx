@@ -1,5 +1,6 @@
 import path from 'path';
 import fs from 'fs/promises';
+import Link from 'next/link';
 
 export default async function Body() {
   const filePath = path.join(process.cwd(), 'data', 'data.json');
@@ -12,8 +13,9 @@ export default async function Body() {
     <div className="w-[75%] mx-auto">
       <div className="flex gap-x-5 gap-y-1 px-6 mx-auto justify-center flex-wrap">
         {proj.map((project: any, id: number) => (
+          <Link href={`/project/${project.id}`} key={project.id}>
           <div
-            key={`${project.title}-${id}`}
+            key={`${project.id}`}
             data-layer="full r1"
             className="FullR1 w-78 h-90 bg-[#080810] rounded-[10px] hover:cursor-pointer m-2"
           >
@@ -31,22 +33,16 @@ export default async function Body() {
 
             <div
               data-layer="ds1"
-              className="Ds1 w-full justify-start text-zinc-400 text-sm font-medium font-['Satoshi'] mt-1"
+              className="Ds1 w-full justify-start text-zinc-400 text-sm font-medium font-['Satoshi'] mt-2.5"
             >
               {project.description}
             </div>
 
             <div
               data-layer="link"
-              className="w-full justify-start flex text-sm font-bold font-['Satoshi'] mt-2"
+              className="w-full justify-start flex text-sm font-bold font-['Satoshi'] mt-2.5"
               style={{ color: "#484868" }}
             >
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-1 max-w-xs"
-              >
                 <span className="overflow-hidden whitespace-nowrap overflow-ellipsis block max-w-[60%]">
                   {project.link}
                 </span>
@@ -55,10 +51,10 @@ export default async function Body() {
                   className="w-4 h-4 flex-shrink-0"
                   alt="external link"
                 />
-                <span className="text-white/60 text-xs font-normal ml-9">Learn more</span>
-              </a>
+                <span className="text-white/60 text-xs font-normal ml-12 my-1">Learn more</span>
             </div>
           </div>
+          </Link>
         ))}
       </div>
     </div>

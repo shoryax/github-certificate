@@ -5,42 +5,48 @@
             "title": "UT Dining",
             "description": "A mobile app that tracks UT Austin real-time dining hall menus, nutrition info, and hours. Has over 100+ daily users with 5-star reviews on the App Store!",
             "link": "https://apps.apple.com/us/app/ut-dining/id6743042002",
-            "image": "/dining.jpeg"
+            "image": "/dining.jpeg",
+            "tech": "FIGMA, NEXT-JS"
         },
         {
-            "id": "1",
+            "id": "2",
             "title": "UT Dining",
             "description": "A mobile app that tracks UT Austin real-time dining hall menus, nutrition info, and hours. Has over 100+ daily users with 5-star reviews on the App Store!",
             "link": "https://apps.apple.com/us/app/ut-dining/id6743042002",
-            "image": "/dining.jpeg"
+            "image": "/dining.jpeg",
+            "tech": "figma, next-js"
         },
         {
-            "id": "1",
+            "id": "3",
             "title": "UT Dining",
             "description": "A mobile app that tracks UT Austin real-time dining hall menus, nutrition info, and hours. Has over 100+ daily users with 5-star reviews on the App Store!",
             "link": "https://apps.apple.com/us/app/ut-dining/id6743042002",
-            "image": "/dining.jpeg"
+            "image": "/dining.jpeg",
+            "tech": "figma, next-js"
         },
         {
-            "id": "1",
+            "id": "4",
             "title": "UT Dining",
             "description": "A mobile app that tracks UT Austin real-time dining hall menus, nutrition info, and hours. Has over 100+ daily users with 5-star reviews on the App Store!",
             "link": "https://apps.apple.com/us/app/ut-dining/id6743042002",
-            "image": "/dining.jpeg"
+            "image": "/dining.jpeg",
+            "tech": "figma, next-js"
         },
         {
-            "id": "1",
+            "id": "5",
             "title": "UT Dining",
             "description": "A mobile app that tracks UT Austin real-time dining hall menus, nutrition info, and hours. Has over 100+ daily users with 5-star reviews on the App Store!",
             "link": "https://apps.apple.com/us/app/ut-dining/id6743042002",
-            "image": "/dining.jpeg"
+            "image": "/dining.jpeg",
+            "tech": "figma, next-js"
         },
         {
-            "id": "1",
+            "id": "6",
             "title": "UT Dining",
             "description": "A mobile app that tracks UT Austin real-time dining hall menus, nutrition info, and hours. Has over 100+ daily users with 5-star reviews on the App Store!",
             "link": "https://apps.apple.com/us/app/ut-dining/id6743042002",
-            "image": "/dining.jpeg"
+            "image": "/dining.jpeg",
+            "tech": "figma, next-js"
         }
     ]
 }
